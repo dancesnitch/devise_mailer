@@ -17,7 +17,7 @@ group :production do
   gem 'pg'
 end
 
-gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'bootstrap-sass', '~> 3.3.7'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
@@ -60,3 +60,9 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'font-awesome-sass', '~> 4.6', '>= 4.6.2'
+#Added rails font awesome to run font-awesome with rails 5.0
+gem 'font-awesome-rails'
+
+
