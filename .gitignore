@@ -21,4 +21,4 @@
 .byebug_history
 
 #ignore public folder
-/public/
+/.public/assets
