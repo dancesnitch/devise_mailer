@@ -7,7 +7,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.3'
+gem 'rails', '~> 5.0.0'
 # Use sqlite3 as the database for Active Record
 
 group :development, :test do
@@ -69,5 +69,8 @@ gem 'font-awesome-sass', '~> 4.6', '>= 4.6.2'
 #Added rails font awesome to run font-awesome with rails 5.0
 gem 'font-awesome-rails'
 
+gem 'bundler', '1.14.6'
+
+gem 'github-linguist'
 
 
