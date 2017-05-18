@@ -71,6 +71,5 @@ gem 'font-awesome-rails'
 
 gem 'bundler', '1.14.6'
 
-gem 'github-linguist'
 
 
