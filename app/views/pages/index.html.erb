@@ -87,3 +87,15 @@
             </div>
         </div>
     </section>
+
+    <section class="col-sm-2 offset-3">           
+        <div class="container">
+            <div class="col-sm-12">
+                <h4>Recent Articles</h4>
+                    <% @articles.each do |a| %>
+                    <strong><%= link_to a.title, a %></strong>
+                    <p><%= truncate(a.body) %></p>
+                    <% end %>
+            </div>    
+        </div>
+    </section> 
