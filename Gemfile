@@ -71,5 +71,9 @@ gem 'font-awesome-rails'
 
 gem 'bundler', '1.14.6'
 
+gem "paperclip", "~> 5.0.0"
+
+gem "aws-sdk", '~> 2.3.0'
+
 
 
