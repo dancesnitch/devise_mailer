@@ -202,7 +202,7 @@ DEPENDENCIES
   aws-sdk (~> 2.3.0)
   bootstrap-sass (~> 3.3.7)
   bootstrap-sass-extras (~> 0.0.2)
-  bundler (= 1.14.6)
+  bundler (= 1.15.0)
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.2)
@@ -229,4 +229,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.14.6
+   1.15.0
