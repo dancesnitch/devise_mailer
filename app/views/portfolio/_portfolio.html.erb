@@ -1,0 +1,17 @@
+<div class="portfolio" id="<%= portfolio.id %>">
+  <div class="front">
+    <%= link_to portfolio, class: 'pic-link' do %>
+      <%= image_tag portfolio.avatar.url(:square) %>
+    <% end %>
+  </div>
+
+  <div class="back">
+    <span class="portfolio-name"><%= portfolio.name %></span>
+    <div class="actions">
+      <%= link_to 'Show', portfolio %>
+      <%= link_to 'Edit', edit_portfolio_path(portfolio) %>
+      <%= link_to 'Delete', portfolio, confirm: 'Are you sure you want to lose a friend?', method: :delete, class: 'destroy' %>
+    </div>
+  </div>
+</div>
+Contact GitHub API Training Shop Blog About
