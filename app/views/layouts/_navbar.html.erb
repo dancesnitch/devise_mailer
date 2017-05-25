@@ -20,8 +20,8 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
 
-        <li><%=link_to "Contact Us", pages_contact_path if !current_user %></li>
-        <li><%=link_to "About Us", pages_about_path if !current_user %></li>
+        <li><%=link_to "Contact Me", pages_contact_path if !current_user %></li>
+        <li><%=link_to "About Me", pages_about_path if !current_user %></li>
         <li><%=link_to "Recent Articles", articles_path if current_user %></li>
         <li><%=link_to "Create an Article", new_article_path %></li>
         <% if !current_user %>
