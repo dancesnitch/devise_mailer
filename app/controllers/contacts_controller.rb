@@ -7,20 +7,20 @@ class ContactsController < ApplicationController
  def create
  	@contact = Contact.new(contact_params)
 
-if @contact.save
-	 redirect_to root_path
-	 name = params[:contact][:name]
-	 email = params[:contact][:email]
-	 message = params[:contact][:message]
-	 ContactMailer.contact_email(name, email, message).deliver
-	 flash[:success] = "Thanks for the message, we will be in touch soon."
- 
-else
+	if @contact.save
+		 redirect_to root_path
+		 name = params[:contact][:name]
+		 email = params[:contact][:email]
+		 message = params[:contact][:message]
+		 ContactMailer.contact_email(name, email, message)#.deliver -->>use for production
+		 flash[:success] = "Thanks for reaching out, I'll be in touch soon."
+	 
+	else
 
- 		redirect_to root_path
- 		flash[:danger] = "Opps, there was a problem! Please fill out all the fields."
-	end
- end
+	 		redirect_to root_path
+	 		flash[:danger] = "Opps, there was a problem! Please fill out all the fields."
+		end
+	 end
 
 
 
