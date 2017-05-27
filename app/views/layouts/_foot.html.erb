@@ -1,54 +1,20 @@
-<% if current_user %>
-</footer>
+
 <footer class="footer-distributed">
 	<div class="footer-right">
-		<a href="#"><i class="fa fa-facebook"></i></a>
-		<a href="#"><i class="fa fa-twitter"></i></a>
-		<a href="#"><i class="fa fa-linkedin"></i></a>
-		<a href="#"><i class="fa fa-github"></i></a>
+		<a href="https://www.facebook.com/dancesnitch"><i class="fa fa-facebook"></i></a>
+		<a href="http://twitter.com/dancesnitch"><i class="fa fa-twitter"></i></a>
+		<!--<a href="#"><i class="fa fa-linkedin"></i></a>-->
+		<a href="http://github.com/dancesnitch"><i class="fa fa-github"></i></a>
 	</div>
 		<div class="footer-left">
 			<p class="footer-links">
 			·
-			<a class="page-scroll" href="#portfolio">Contact Me</a>
+			<%= link_to "Contact Me", pages_contact_path, class: "page-scroll" %>
 			·
-			<a class="page-scroll" href="#services">About Me</a>
+			<%= link_to "About Me", pages_about_path, class: "page-scroll" %>
 			·
 			</p>
-		<p> </p>
+		<p class="footer-company-name">DanielJohn|Apps &copy; 2017 </p>
 	</div>
 </footer>
 
-<% else %>
-
-<footer class="footer-distributed">
-<div class="footer-left">
-	<h3>DANIELJOHN<span>APPS</span></h3>
-		<p class="footer-links">
-			<a href="/">Home</a>
-
-			<a href="/http://danieljohnportfolio.herokuapp.com/pages/about">About</a>
-
-			<a href="http://danieljohnportfolio.herokuapp.com/pages/contact">Contact</a>
-		</p>
-	<p class="footer-company-name">DanielJohn Apps &copy; 2017</p>
-	<div class="footer-icons">
-		<!--<a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a>-->
-		<a href="http://twitter.com/dancesnitch"><i class="fa fa-twitter"></i></a>
-		<!--<a href="#"><i class="fa fa-linkedin"></i></a>-->
-		<a href="http://github.com/dancesnitch"><i class="fa fa-github"></i></a>
-
-	</div>
-</div>
-<div class="footer-right">
-	<p>Contact Me</p>
-	<form action="#" method="post">
-		<input type="text" name="email" placeholder="Email" />
-		<textarea name="message" placeholder="Message"></textarea>
-		<button>Send</button>
-	</form>
-	<a href="http://github.com/dancesnitch"><i class="fa fa-github"></i></a>
-</div>
-</footer>
-
-<% end %>
