@@ -6,6 +6,6 @@ default to: "byrne.daniel87@gmail.com"
 	 @email = email
 	 @message = message
 
- mail(from: email, subject: 'DanielJohnApps Contact Form Message')
- end
+ 	mail(from: email, subject: "DanielJohnApps Contact Form Message")
+	end
 end
