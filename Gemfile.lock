@@ -199,6 +199,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
   aws-sdk (~> 2.3.0)
   bootstrap-sass (~> 3.3.7)
   bootstrap-sass-extras (~> 0.0.2)
