@@ -60,6 +60,7 @@ Rails.application.configure do
   # config.active_job.queue_name_prefix = "devise_mailer_#{Rails.env}"
   config.action_mailer.perform_caching = false
 
+
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   # config.action_mailer.raise_delivery_errors = false
@@ -92,6 +93,8 @@ Rails.application.configure do
 
   #config/environments/production.rb
   config.consider_all_requests_local = true # false
+
+  config.action_mailer.default_url_options = { host: 'https://danieljohnportfolio.herokuapp.com' }
 end
 
 
