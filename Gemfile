@@ -77,10 +77,14 @@ gem "paperclip", "~> 5.0.0"
 
 gem "aws-sdk", '~> 2.3.0'
 
+
 #<<<<<<< HEAD
 gem "activesupport"
 
 #=======
 #>>>>>>> d9451371
+
+gem "github-linguist"
+
 
 
