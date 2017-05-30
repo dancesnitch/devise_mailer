@@ -13,4 +13,13 @@ module DeviseMailer
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
   end 
+
+require 'rugged'
+require 'linguist'
+		#requried for gitlinguist
+		repo = Rugged::Repository.new('.')
+		project = Linguist::Repository.new(repo, repo.head.target_id)
+		project.language       #=> "Ruby"
+		project.languages      #=> { "Ruby" => 119387 }
+	end
 end
