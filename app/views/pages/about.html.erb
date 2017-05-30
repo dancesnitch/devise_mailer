@@ -1,16 +1,21 @@
 
     <!-- About Section -->
     <header>
-    <div class="container" id="maincontent" tabindex="-1">
-        <div class="col-lg-12 text-center">
-                    <h1>About Me</h1>
-                    <hr class="star-light">
-        </div> 
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
                  <%= image_tag("https://s3.us-east-2.amazonaws.com/danieljohnportfolio2/danieldrums.png", class: "img-thumbnail")%><!--img class="img-responsive" src="img/profile.png"--> <alt="">
+               <div class="col-lg-8 col-lg-offset-2 text-center">
+                  <div class="col-lg-12 text-center">
+                              <h1>About Me</h1>
+                              <hr class="star-light">
+                  </div> 
+                    <%= link_to "Contact Me", pages_contact_path, class: "fa fa-wechat", class: "btn btn-lg btn-outline" %>
+              </div>
             </div>
-        </div>     
+        </div>    
+   </header> 
+   </br>
+   <body>
               <div class="row">
                   <div class="col-lg-6  text-left">
                       <div class="col-lg-6 text-right" id="aboutlogo">
@@ -28,8 +33,6 @@
 
                       <p>Phasellus sit amet aliquet libero. Proin hendrerit, nunc at varius dignissim, risus tellus tincidunt ipsum, ullamcorper mollis enim neque id purus. Vivamus varius congue ex. Nunc in est sollicitudin enim pretium ultricies. Nunc placerat lorem eu odio dignissim sodales. Morbi at fringilla justo. Aenean fringilla rhoncus dapibus. Praesent et turpis orci.</p>
               </div>
-              <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <%= link_to "Contact Me", pages_contact_path, class: "fa fa-wechat", class: "btn btn-lg btn-outline" %>
-              </div>
         </div>
-    </header>
+</body>
+ 
