@@ -49,6 +49,13 @@ ActiveRecord::Schema.define(version: 20170527164408) do
     t.boolean  "admin",                  default: false
     t.string   "firstname"
     t.string   "lastname"
+<<<<<<< HEAD
+=======
+    t.string   "avatar_file_name"
+    t.string   "avatar_content_type"
+    t.integer  "avatar_file_size"
+    t.datetime "avatar_updated_at"
+>>>>>>> d9451371
     t.index ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
