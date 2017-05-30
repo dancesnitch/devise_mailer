@@ -3,6 +3,7 @@ require_relative 'boot'
 require 'rails/all'
 require 'sprockets/railtie'
 
+=begin
 require 'rugged'
 require 'linguist'
 
@@ -10,7 +11,7 @@ require 'linguist'
 	project = Linguist::Repository.new(repo, repo.head.target_id)
 	project.language  #=> "ruby", 
 	project.languages #=> { "ruby" => 119387 }
-
+=end
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)

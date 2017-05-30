@@ -84,7 +84,6 @@ gem "activesupport"
 #=======
 #>>>>>>> d9451371
 
-gem "github-linguist"
 
 
 
