@@ -6,10 +6,10 @@ require 'sprockets/railtie'
 require 'rugged'
 require 'linguist'
 
-repo = Rugged::Repository.new('.')
-project = Linguist::Repository.new(repo, repo.head.target_id)
-project.language       #=> "Ruby"
-project.languages      #=> { "Ruby" => 119387 }
+	repo = Rugged::Repository.new('.')
+	project = Linguist::Repository.new(repo, repo.head.target_id)
+	project.language  #=> "ruby", 
+	project.languages #=> { "ruby" => 119387 }
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.

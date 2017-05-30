@@ -1,3 +1,4 @@
+=begin
 	require 'rugged'
 	require 'linguist'
 
@@ -6,3 +7,4 @@
 	project.language  => "Ruby"
 	project.languages => { "Ruby" => 119387 }
 end
+=end
