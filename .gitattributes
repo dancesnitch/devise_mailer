@@ -1,2 +1,2 @@
 .rb linguist-language=Ruby
-.css linguist-language=Ruby
+.css linguist-vendored=true
