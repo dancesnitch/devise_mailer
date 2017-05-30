@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+#secure AWS S3 from attacksr
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
@@ -76,10 +77,10 @@ gem "paperclip", "~> 5.0.0"
 
 gem "aws-sdk", '~> 2.3.0'
 
-<<<<<<< HEAD
+#<<<<<<< HEAD
 gem "activesupport"
 
-=======
->>>>>>> d9451371
+#=======
+#>>>>>>> d9451371
 
 
