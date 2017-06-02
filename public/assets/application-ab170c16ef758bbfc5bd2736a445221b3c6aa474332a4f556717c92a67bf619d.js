@@ -12184,10 +12184,6 @@ return t.dispatch("turbolinks:before-render",{data:{newBody:e}})},r.prototype.no
 
 }).call(this);
 
-var http = require("http");
-setInterval(function() {
-    http.get("https://danieljohnapps.me");
-}, 300000); // every 5 minutes (300000)
 ;
 (function() {
 
