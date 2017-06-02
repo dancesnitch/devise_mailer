@@ -1,18 +1,2 @@
 .rb linguist-language=Ruby
 
-public/assets/application-2a5a9995734d37f4f8304eca0a14ade38e235c1e67a86f1b2ca2ec95eeacdef4.css linguist-vendored=true
-public/assets/application-a00154700ea1c09eb7f4702b1b7e8170c8f3310b37c4eb43e64b43d60a3afa87.css linguist-vendored=true 
-app/assets/stylesheets/articles.scss linguist-vendored=true
-app/assets/stylesheets/darkly.css.scss linguist-vendored=true
-app/assets/stylesheets/footer.css.scss linguist-vendored=true
-app/assets/stylesheets/pages.scss linguist-vendored=true
-app/assets/stylesheets/portfolio.css.scss linguist-vendored=true
-app/assets/stylesheets/portfolio2.css.scss linguist-vendored=true
-app/assets/stylesheets/scaffolds.scss linguist-vendored=true
-
-
-
-app/assets/config/manifest.js linguist-vendored=true
-app/assets/javascripts/cable.js linguist-vendored=true
-public/assets/application-f6f072f72f9c9fe8f014042771a1292761d543f7a96900734f2f15181085a73f.js linguist-vendored=true
-public/assets/application-9e66dda62cb629b98d48ed23d7d3039fbb5fe8969605c14de08816b9a477ed51.js linguist-vendored=true
