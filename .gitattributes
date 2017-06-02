@@ -9,10 +9,11 @@ app/assets/stylesheets/pages.scss linguist-vendored=true
 app/assets/stylesheets/portfolio.css.scss linguist-vendored=true
 app/assets/stylesheets/portfolio2.css.scss linguist-vendored=true
 app/assets/stylesheets/scaffolds.scss linguist-vendored=true
+public/assets/application-c6b595ad7133d4f66d848912bbdecba62f730485173f6cc1c2e238e3ed28f31f.css linguist-vendored=true
 
 
 
-app/assets/config/manifest.js linguist-vendored=false
-app/assets/javascripts/cable.js linguist-vendored=false
-public/assets/application-f6f072f72f9c9fe8f014042771a1292761d543f7a96900734f2f15181085a73f.js linguist-vendored=false
-public/assets/application-9e66dda62cb629b98d48ed23d7d3039fbb5fe8969605c14de08816b9a477ed51.js linguist-vendored=false
+app/assets/config/manifest.js linguist-vendored=true
+app/assets/javascripts/cable.js linguist-vendored=true
+public/assets/application-f6f072f72f9c9fe8f014042771a1292761d543f7a96900734f2f15181085a73f.js linguist-vendored=true
+public/assets/application-9e66dda62cb629b98d48ed23d7d3039fbb5fe8969605c14de08816b9a477ed51.js linguist-vendored=true
