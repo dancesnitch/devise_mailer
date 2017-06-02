@@ -71,11 +71,13 @@ gem 'font-awesome-sass', '~> 4.6', '>= 4.6.2'
 #Added rails font awesome to run font-awesome with rails 5.0
 gem 'font-awesome-rails'
 
-gem 'bundler', '1.15.0'
+gem 'bundler', '1.15.1'
 
 gem "paperclip", "~> 5.0.0"
 
 gem "aws-sdk", '~> 2.3.0'
+
+gem "dynopoker"
 
 
 #<<<<<<< HEAD
