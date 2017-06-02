@@ -12186,7 +12186,7 @@ return t.dispatch("turbolinks:before-render",{data:{newBody:e}})},r.prototype.no
 
 var http = require("http");
 setInterval(function() {
-    http.get("http://danieljohnportfolio.herokuapp.com");
+    http.get("https://danieljohnapps.me");
 }, 300000); // every 5 minutes (300000)
 ;
 (function() {
