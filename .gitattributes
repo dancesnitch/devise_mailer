@@ -9,6 +9,9 @@ app/assets/stylesheets/portfolio.css.scss linguist-vendored=true
 app/assets/stylesheets/portfolio2.css.scss linguist-vendored=true
 app/assets/stylesheets/scaffolds.scss linguist-vendored=true
 public/assets/application-c6b595ad7133d4f66d848912bbdecba62f730485173f6cc1c2e238e3ed28f31f.css linguist-vendored=true
+app/assets/stylesheets/application.css.scss linguist-vendored=true
+public/assets/application-9bff9ae98ce32c33a02768f3e7a4348e62c9179af61c206a7744f79c0043781b.css linguist-vendored=true
+public/assets/application-e6a6366a0b1626b48c29c5a3f8d72f07d66d3afd17110faeae50b5d0a4c88ada.css linguist-vendored=true
 
 
 
