@@ -23,10 +23,10 @@ Rails.application.configure do
   config.assets.css_compressor = :sass
   config.assets.precompile += %w(reset.css bootstrap.min.css bootstrap-responsive.min.css font-awesome.css fancybox.css)
   config.assets.precompile += %w(modernizr.js bootstrap.js)
-  config.serve_static_assets = true
+  config.serve_static_assets = false
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.assets.compile = false
+  config.assets.compile = true
 
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
 
