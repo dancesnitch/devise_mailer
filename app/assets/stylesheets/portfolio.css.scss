@@ -53,6 +53,8 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
 }
 hr.star-light,
 hr.star-primary {
@@ -81,19 +83,24 @@ hr.star-light:after {
   color: white;
 }
 hr.star-primary {
-  border-color: #2C3E50;
+  border-color: #ffffff;
 }
 hr.star-primary:after {
   background-color: white;
-  color: #2C3E50;
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background: #4b377f;
   color: white;
+  background-image: url(https://s3.us-east-2.amazonaws.com/danieljohnportfolio2/djbappsbackgroundlighter.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+
 }
 header .container {
   padding-top: 100px;
@@ -342,7 +349,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
+  color: #e74c3c;
   background: white;
   border: solid 2px white;
 }
@@ -537,4 +544,28 @@ fieldset[disabled] .btn-success.active {
 }
 div#maincontent {
   outline: none;
+  padding: 40px;
 }
+
+#subtitle{
+  color: #ee3939;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.42);
+  box-shadow: inset 50px 50px 0px 20px rgba(0, 0, 0, 0.1);
+  font-size: 50px;
+  font-weight: bold;
+  width: 250px;
+  text-align: center;
+}
+
+.jumbotron{
+    background-color: transparent !important;
+}
+
+#aboutme {
+  padding-left: 80px;
+}
+
+a:visited {
+  color: white;
+}
+
