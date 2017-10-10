@@ -137,7 +137,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2C3E50;
+  background: #f32dfe;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -159,7 +159,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: #f32dfe;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
@@ -167,13 +167,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #18BC9C;
+  background: #f32dfe;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  background: #f32dfe;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -183,9 +183,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
+  background-color: #f42cff;
   color: white;
-  border-color: #18BC9C;
+  border-color: #f32dfe;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -579,6 +579,10 @@ a:visited {
 
 .signupforgot {
   padding: 30px
+}
+
+.bio {
+  margin-right: 25px;
 }
 
 
