@@ -5832,11 +5832,12 @@ button.list-group-item-danger.active:focus {
   padding-bottom: 75%;
 }
 .well {
+  max-width: 100%;
   min-height: 20px;
-  padding: 19px;
+  padding: 5px;
   margin-bottom: 20px;
   background-color: #303030;
-  border: 1px solid transparent;
+  border: 1 px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
