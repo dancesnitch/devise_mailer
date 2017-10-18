@@ -559,8 +559,10 @@ div#maincontent {
 
 @media (min-width: 340px) {
   #aboutme {
-    padding-left: 80px;
-    padding-right: 40px;
+    padding-left: 10px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right:  auto
   }
 }
 
