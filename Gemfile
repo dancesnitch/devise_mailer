@@ -15,7 +15,9 @@ gem 'rails', '~> 5.0.0'
 group :development, :test do
   gem 'sqlite3'
 end
-
+group :production do
+  gem 'pg'
+end
 
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'bootstrap-sass-extras', '~> 0.0.2'
