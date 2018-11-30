@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-ruby '2.3.1'
+ruby '2.5.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0'
@@ -15,9 +15,7 @@ gem 'rails', '~> 5.0.0'
 group :development, :test do
   gem 'sqlite3'
 end
-group :production do
-  gem 'pg'
-end
+
 
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'bootstrap-sass-extras', '~> 0.0.2'
@@ -71,7 +69,7 @@ gem 'font-awesome-sass', '~> 4.6', '>= 4.6.2'
 #Added rails font awesome to run font-awesome with rails 5.0
 gem 'font-awesome-rails'
 
-gem 'bundler', '1.15.1'
+gem 'bundler', '1.16.4'
 
 gem "paperclip", "~> 5.0.0"
 
@@ -79,6 +77,7 @@ gem "aws-sdk", '~> 2.3.0'
 
 gem "dynopoker"
 
+gem "turnout"
 
 #<<<<<<< HEAD
 gem "activesupport"
